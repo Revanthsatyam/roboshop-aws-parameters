@@ -17,10 +17,14 @@ parameters = {
   "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.rdevops74.online" }
 
   "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
-  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "SecureString", value = "roboshop123" }
 
   ## Usually the passwords are not at all preferred to keep under git repo., Usually in orgs we always create passwords in manual way whomever have access. In class we keep it here for easy reference
   ## Passwords
-  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
-  "rds.dev.master_password"   = { type = "String", value = "roboshop1234" }
+  "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+  "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
+
+  ## ElasticSearch
+  "elasticsearch.username" = { type = "String", value = "elastic" }
+  "elasticsearch.password" = { type = "SecureString", value = "40wQ1rgmdQl1T5g6QuMi" }
 }
