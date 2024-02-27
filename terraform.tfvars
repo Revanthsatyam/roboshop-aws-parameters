@@ -53,6 +53,7 @@ parameters = {
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevops74.online:80" }
   "shipping.prod.DB_HOST"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-cvogzis1mrn3.us-east-1.rds.amazonaws.com" }
+  "catalogue.prod.MONGO_URL"    = { type = "SecureString", value = "mongodb://docdbadmin:roboshop1234@prod-docdb-cluster.cluster-cvogzis1mrn3.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"}
 
   "payment.prod.CART_HOST" = { type = "String", value = "cart-prod.rdevops74.online" }
   "payment.prod.CART_PORT" = { type = "String", value = "80" }
