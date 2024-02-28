@@ -49,7 +49,7 @@ parameters = {
   "rds.prod.database_name"      = { type = "String", value = "dummy" }
   "user.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.k61ho0.0001.use1.cache.amazonaws.com" }
   "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.k61ho0.0001.use1.cache.amazonaws.com" }
-  "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue-prod.rdevops74.online" }
+  "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue" }
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevops74.online:80" }
   "shipping.prod.DB_HOST"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-cvogzis1mrn3.us-east-1.rds.amazonaws.com" }
