@@ -13,7 +13,7 @@ parameters = {
   "payment.dev.CART_PORT"      = { type = "String", value = "80" }
   "payment.dev.USER_HOST"      = { type = "String", value = "user-dev.rdevops74.online" }
   "payment.dev.USER_PORT"      = { type = "String", value = "80" }
-  "payment.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.rdevops74.online" }
+  "payment.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.rdevops74.online:80" }
 
   "rabbitmq.dev.AMQP_USER"     = { type = "String", value = "roboshop" }
   "rabbitmq.dev.AMQP_PASS"     = { type = "String", value = "roboshop123" }
