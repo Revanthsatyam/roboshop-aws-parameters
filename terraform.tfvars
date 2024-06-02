@@ -27,6 +27,16 @@ parameters = {
   "elasticsearch.password"    = { type = "SecureString", value = "qIGXkbskWIUuK6XF92aa" }
 
   #NEXUS
-  "nexus.username"    = { type = "String", value = "admin" }
-  "nexus.password"    = { type = "SecureString", value = "admin123" }
+  "nexus.username"        = { type = "String", value = "admin" }
+  "nexus.password"        = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username"    = { type = "String", value = "admin" }
+  "nexus.dev.password"    = { type = "SecureString", value = "admin123" }
+
+  #APPVERSION
+  "cart.dev.appVersion"      = { type = "String", value = "1.0.0" }
+  "catalogue.dev.appVersion" = { type = "String", value = "1.0.1" }
+  "frontend.dev.appVersion"  = { type = "String", value = "1.0.0" }
+  "payment.dev.appVersion"   = { type = "String", value = "1.0.0" }
+  "shipping.dev.appVersion"  = { type = "String", value = "1.0.1" }
+  "user.dev.appVersion"      = { type = "String", value = "1.0.1" }
 }
