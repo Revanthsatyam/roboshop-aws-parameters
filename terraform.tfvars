@@ -50,7 +50,7 @@ parameters = {
   "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue-prod.rdevops74.online" }
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevops74.online:80" }
-  "shipping.prod.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-cvumouqg0y07.us-east-1.rds.amazonaws.com" }
+  "shipping.prod.DB_HOST"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-cvumouqg0y07.us-east-1.rds.amazonaws.com" }
 
   "payment.prod.CART_HOST"      = { type = "String", value = "cart-prod.rdevops74.online" }
   "payment.prod.CART_PORT"      = { type = "String", value = "80" }
