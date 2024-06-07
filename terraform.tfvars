@@ -39,4 +39,46 @@ parameters = {
   "payment.dev.appVersion"   = { type = "String", value = "1.0.0" }
   "shipping.dev.appVersion"  = { type = "String", value = "1.0.1" }
   "user.dev.appVersion"      = { type = "String", value = "1.0.1" }
+
+  #PROD ENV
+  "docdb.prod.master_username"  = { type = "String", value = "docdbadmin" }
+  "docdb.prod.endpoint"         = { type = "String", value = "prod-docdb-cluster.cluster-cvumouqg0y07.us-east-1.docdb.amazonaws.com" }
+  "rds.prod.master_username"    = { type = "String", value = "devadmin" }
+  "rds.prod.database_name"      = { type = "String", value = "dummy" }
+  "user.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ddnixq.0001.use1.cache.amazonaws.com" }
+  "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ddnixq.0001.use1.cache.amazonaws.com" }
+  "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue-prod.rdevops74.online" }
+  "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
+  "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevops74.online:80" }
+  "shipping.prod.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-cvumouqg0y07.us-east-1.rds.amazonaws.com" }
+
+  "payment.prod.CART_HOST"      = { type = "String", value = "cart-prod.rdevops74.online" }
+  "payment.prod.CART_PORT"      = { type = "String", value = "80" }
+  "payment.prod.USER_HOST"      = { type = "String", value = "user-prod.rdevops74.online" }
+  "payment.prod.USER_PORT"      = { type = "String", value = "80" }
+  "payment.prod.AMQP_HOST"      = { type = "String", value = "rabbitmq-prod.rdevops74.online" }
+
+  "rabbitmq.prod.AMQP_USER"     = { type = "String", value = "roboshop" }
+  "rabbitmq.prod.AMQP_PASS"     = { type = "SecureString", value = "roboshop123" }
+
+
+  "docdb.prod.master_password"  = { type = "String", value = "roboshop1234" }
+  "rds.prod.master_password"    = { type = "SecureString", value = "roboshop1234" }
+
+  "elasticsearch.username"    = { type = "String", value = "elastic" }
+  "elasticsearch.password"    = { type = "SecureString", value = "qIGXkbskWIUuK6XF92aa" }
+
+  #NEXUS
+  "nexus.username"        = { type = "String", value = "admin" }
+  "nexus.password"        = { type = "SecureString", value = "admin123" }
+  "nexus.prod.username"    = { type = "String", value = "admin" }
+  "nexus.prod.password"    = { type = "SecureString", value = "admin123" }
+
+  #APPVERSION
+  "cart.prod.appVersion"      = { type = "String", value = "1.0.0" }
+  "catalogue.prod.appVersion" = { type = "String", value = "1.0.1" }
+  "frontend.prod.appVersion"  = { type = "String", value = "1.0.0" }
+  "payment.prod.appVersion"   = { type = "String", value = "1.0.0" }
+  "shipping.prod.appVersion"  = { type = "String", value = "1.0.1" }
+  "user.prod.appVersion"      = { type = "String", value = "1.0.1" }
 }
