@@ -65,12 +65,7 @@ parameters = {
   "docdb.prod.master_password"  = { type = "String", value = "roboshop1234" }
   "rds.prod.master_password"    = { type = "SecureString", value = "roboshop1234" }
 
-  "elasticsearch.username"    = { type = "String", value = "elastic" }
-  "elasticsearch.password"    = { type = "SecureString", value = "qIGXkbskWIUuK6XF92aa" }
-
   #NEXUS
-  "nexus.username"        = { type = "String", value = "admin" }
-  "nexus.password"        = { type = "SecureString", value = "admin123" }
   "nexus.prod.username"    = { type = "String", value = "admin" }
   "nexus.prod.password"    = { type = "SecureString", value = "admin123" }
 
